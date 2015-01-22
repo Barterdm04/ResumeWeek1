@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 22, 2015, 10:29:37 AM
+    Author     : dbarter1
+*/
+
+body {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 10pt;
+}
+#wrapper {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    text-align: center;
+}
+
+.title {
+    font-size: 14pt;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.indent {
+    margin-left: 70px;
+}
